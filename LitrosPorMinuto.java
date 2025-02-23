@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class LitrosPorMinuto {
 	public static void main(String[] args) {
+	//Nesse exercicio, foi definido o litros usados por KM como 12, exercicio D da página 146
 	//Variáveis
 	Scanner sc = new Scanner(System.in);
 	double VELOCIDADE, HORAS, DISTANCIA,LITROS_USADOS;
