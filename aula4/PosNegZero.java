@@ -27,6 +27,7 @@ public class PosNegZero {
 		else {
 			System.out.print("O seu numero e positivo");
 		}
+		// Fechando o Scanner
 		sc.close();
 	}
 }
