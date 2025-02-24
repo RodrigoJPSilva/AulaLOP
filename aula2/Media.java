@@ -31,6 +31,7 @@ public class Média {
 
 			// Saida
 			System.out.println("A altura média de "+ Nome1 + "e " + Nome2 + "são" + Media);
+			
 			// Fechando o Scanner
 			sc.close();
 
