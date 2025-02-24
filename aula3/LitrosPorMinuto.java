@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class LitrosPorMinuto {
 	public static void main(String[] args) {
-	//Variáveis
-	Scanner sc = new Scanner(System.in);
+	//Abrindo o Scanner
+	Scanner sc  = new Scanner(System.in);
+	//Variaveis
 	double Velocidade, HorasDouble, Distancia,Litros_Usados;
 	int Tempo;
 	//Entrada
@@ -16,13 +17,13 @@ public class LitrosPorMinuto {
 	Velocidade = sc.nextDouble();
 	System.out.print("Agora digite os minutos percorridos: ");
 	Tempo = sc.nextInt();
-    //processamento	
+	//processamento	
 	HorasDouble = Tempo / 60.0;//convertendo Tempo para double
 	Distancia = HorasDouble * Velocidade;
 	Litros_Usados = Distancia / 12;
 	int HrsInt = Tempo / 60;
 	int MinInt = Tempo % 60;
-	//Saída
+	//Saida Condicional
 	System.out.printf("Velocidade média: %.0fKM\n", Velocidade);
 	if(Tempo >= 60) {
 		if (HrsInt == 1){
@@ -35,9 +36,12 @@ public class LitrosPorMinuto {
 	else {
 	System.out.println("Tempo gasto: " + Tempo + " Minutos");
 	}
+	//Saida
 	System.out.printf("Distância percorrida: %.0fKM\n", Distancia);
 	System.out.printf("Litros gastos: %.0f Litros\n", Litros_Usados);
 	System.out.print("Agradecemos a sua preferencia, volte sempre :)");
+
+	//Fechando o Scanner
 	sc.close();
 	}
 }
