@@ -5,8 +5,9 @@ import java.util.Scanner;
 public class Conversao2{
 
 			public static void main(String[] args) {
-				//Variaveis
+				//Abrindo o Scanner
 				Scanner sc  = new Scanner(System.in);
+				//Variaveis
 				double Fahrenheit,Conversão;
 				
 				//entrada
