@@ -1,4 +1,4 @@
-package MédiaAltura;
+package aula2;
 
 import java.util.Scanner;
 
