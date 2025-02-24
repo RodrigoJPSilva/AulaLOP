@@ -12,7 +12,6 @@ public class Média {
 			
 			//Dados primeira pessoa
 			System.out.println("Dados da primeira pessoa: ");
-			
 			System.out.print("Nome: ");
 			Nome1 = sc.nextLine();
 			System.out.print("Altura: ");
