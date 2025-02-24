@@ -26,7 +26,7 @@ public class Troco {
 		System.out.print("TROCO = ");
 		System.out.println(String.format("%.2f", Change));
 
-		//Fechando o Scanner
+		// Fechando o Scanner
 		sc.close();
 	}
 
