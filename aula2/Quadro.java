@@ -13,6 +13,7 @@ public class Quadro {
 		//Entrada
 		System.out.print("Largura do comodo: ");
 		Height = sc.nextDouble();
+
 		System.out.print("Altura do Quadro: ");
 		Width = sc.nextDouble();
 		
