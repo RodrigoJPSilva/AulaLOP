@@ -5,8 +5,9 @@ import java.util.Scanner;
 public class IMC {
 
 	public static void main(String[] args) {
-		//Indíce de Massa Muscular
+		//Abrindo o Scanner
 		Scanner sc  = new Scanner(System.in);
+		//Variaveis
 		double Peso,Altura, IMC;
 		
 		//entrada
@@ -21,7 +22,6 @@ public class IMC {
 		System.out.printf("IMC = %.2f\n", IMC);
 		
 		//saida
-
 		if (IMC < 18.5) {
 			System.out.println("Você está abaixo o do peso");
 		}
@@ -40,7 +40,8 @@ public class IMC {
 		else if(IMC >= 40) {
 			System.out.println("Você está com obesidade grau 3");
 		}
-		
+
+		//Fechando o Scanner
 		sc.close();
 
 	}
