@@ -5,8 +5,9 @@ import java.util.Scanner;
 public class Conversao3{
 
 			public static void main(String[] args) {
-				//Variaveis
+				//Abrindo o Scanner
 				Scanner sc  = new Scanner(System.in);
+				//Variaveis
 				double Volume, R, Altura;
 				
 				//entrada
@@ -22,7 +23,7 @@ public class Conversao3{
 				//saida
 				System.out.printf("Em Fehrenheit são %.2fdm³\n", Volume);
 
-				
+				//Fechando o Scanner
 				sc.close();
 
 			}
