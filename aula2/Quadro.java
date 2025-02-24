@@ -5,21 +5,21 @@ import java.util.Scanner;
 public class Quadro {
 
 	public static void main(String[] args) {
-		//Criando o Scanner
+		// Criando o Scanner
 		Scanner sc  = new Scanner(System.in);
-		//Variaveis
+		// Variaveis
 		Double Height, Width, Area, Perimeter, Diagonal;
 
-		//Entrada
+		// Entrada
 		System.out.print("Largura do comodo: ");
 		Height = sc.nextDouble();
 		System.out.print("Altura do Quadro: ");
 		Width = sc.nextDouble();
 		
-		//Processamento
+		// Processamento
 		Area = Height * Width;
 		
-		//Saida
+		// Saida
 		System.out.println("O valor em metros quadrados são: " + Area);
 		System.out.print("ÁREA = ");
 		System.out.println(String.format("%.4f", Area));
@@ -29,7 +29,8 @@ public class Quadro {
 		Diagonal = Math.sqrt(Height * Height+Width * Width); 
 		System.out.print("DIAGONAL = ");
 		System.out.println(String.format("%.4f", Diagonal));
-		
+
+		// Fechando o Scanner
 		sc.close();
 
 	}
