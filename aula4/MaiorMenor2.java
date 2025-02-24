@@ -2,7 +2,7 @@ package aula4;
 
 import java.util.Scanner;
 
-public class MaiorMenor2 {
+public class MaiorMenorAB {
 
 	public static void main(String[] args) {
 		//Variaveis
