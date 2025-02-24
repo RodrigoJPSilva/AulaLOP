@@ -29,6 +29,8 @@ public class ValoresAeB {
 		B = C;
 		// Saida apos a troca
 		System.out.printf("Primeiro caractere: %s\n Segundo caractere: %s\n",A,B);
+
+		//Fechando o Scanner
 		sc.close();
 	}
 
