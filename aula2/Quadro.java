@@ -13,7 +13,6 @@ public class Quadro {
 		//Entrada
 		System.out.print("Largura do comodo: ");
 		Height = sc.nextDouble();
-
 		System.out.print("Altura do Quadro: ");
 		Width = sc.nextDouble();
 		
@@ -22,15 +21,12 @@ public class Quadro {
 		
 		//Saida
 		System.out.println("O valor em metros quadrados são: " + Area);
-		
 		System.out.print("ÁREA = ");
 		System.out.println(String.format("%.4f", Area));
 		Perimeter = 2 * (Height+Width);
-		
 		System.out.print("PEÍMETRO = ");
 		System.out.println(String.format("%.4f", Perimeter));
 		Diagonal = Math.sqrt(Height * Height+Width * Width); 
-		
 		System.out.print("DIAGONAL = ");
 		System.out.println(String.format("%.4f", Diagonal));
 		
