@@ -25,7 +25,11 @@ public class Média {
 			Nome2 = sc.nextLine();
 			System.out.print("Altura: ");
 			Alt2 = sc.nextDouble();
+
+			//Processamento
 			Media = (Alt1+Alt2) / 2;
+
+			//Saida
 			System.out.println("A altura média de "+ Nome1 + "e " + Nome2 + "são" + Media);
 			sc.close();
 
