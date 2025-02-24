@@ -16,8 +16,7 @@ public class AnoBissexto {
 		// Saida Condicional
 		if ((ano % 4 == 0 && ano % 100 != 0)||(ano % 400 == 0)) {
 			System.out.printf("O ano %d e bissexto",ano);
-		}
-		else {
+		} else {
 			System.out.printf("O ano %d nao e bissexto",ano);			
 		}
 		// Fechando o Scanner
