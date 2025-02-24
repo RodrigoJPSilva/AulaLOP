@@ -26,6 +26,7 @@ public class Prestação {
 
 		// saida
 		System.out.printf("A sua prestacao sera de %.2f reais", Prestacao);
+		//Fechando o Scanner
 		sc.close();
 	}
 
