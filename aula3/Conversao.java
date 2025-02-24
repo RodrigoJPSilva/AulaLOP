@@ -5,8 +5,9 @@ import java.util.Scanner;
 public class Conversao{
 
 			public static void main(String[] args) {
-				//Variaveis
+				//Abrindo o Scanner
 				Scanner sc  = new Scanner(System.in);
+				//Variaveis
 				double Fahrenheit,Conversão;
 				
 				//entrada
@@ -20,7 +21,7 @@ public class Conversao{
 				//saida
 				System.out.printf("Em Celsious são %.2f°C\n", Conversão);
 
-				
+				//Fechando o Scanner
 				sc.close();
 
 			}
