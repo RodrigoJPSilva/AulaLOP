@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Média {
 		public static void main(String[] args) {
-			//Criando o Scanner
+			// Criando o Scanner
 			Scanner sc  = new Scanner(System.in);
-			//Variaveis
+			// Variaveis
 			String Nome1, Nome2;
 			double Alt1, Alt2,  Media;
 			
-			//Dados primeira pessoa
+			// Dados primeira pessoa
 			System.out.println("Dados da primeira pessoa: ");
 			System.out.print("Nome: ");
 			Nome1 = sc.nextLine();
@@ -19,18 +19,19 @@ public class Média {
 			
 			sc.nextLine();
 		
-			//Dados segunda pessoa
+			// Dados segunda pessoa
 			System.out.println("Dados da segunda pessoa: ");
 			System.out.print("Nome: ");
 			Nome2 = sc.nextLine();
 			System.out.print("Altura: ");
 			Alt2 = sc.nextDouble();
 
-			//Processamento
+			// Processamento
 			Media = (Alt1+Alt2) / 2;
 
-			//Saida
+			// Saida
 			System.out.println("A altura média de "+ Nome1 + "e " + Nome2 + "são" + Media);
+			// Fechando o Scanner
 			sc.close();
 
 		}
