@@ -22,7 +22,7 @@ public class MaiorMenor {
 		System.out.print("Digite o segundo numero:");
 		c = sc.nextDouble();
 		
-		//Processamento e Saida
+		//Saida Condicional
 		
 		if (a<=b && a<=c) {
 			if (b<c) {
@@ -48,7 +48,8 @@ public class MaiorMenor {
 				System.out.printf("Veja a ordem crescente dos numeros recebidos:%.2f, %.2f e %.2f",b,a,c);				
 			}
 		}
-		
+
+		//Fechando o Scanner
 		sc.close();
 	}
 	
