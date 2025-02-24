@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class MaiorMenor {
 
 	public static void main(String[] args) {
-		//Variaveis
+		// Variaveis
 		Scanner sc = new Scanner(System.in);
 		double a,b,c;
 		
-		//Entrada
+		// Entrada
 		System.out.println("Seja bem vindo caro usuario");
 		System.out.println("Digite dois numeros e eu lhe direi qual deles e maior");
 		
@@ -22,7 +22,7 @@ public class MaiorMenor {
 		System.out.print("Digite o segundo numero:");
 		c = sc.nextDouble();
 		
-		//Saida Condicional
+		// Saida Condicional
 		
 		if (a<=b && a<=c) {
 			if (b<c) {
@@ -49,7 +49,7 @@ public class MaiorMenor {
 			}
 		}
 
-		//Fechando o Scanner
+		// Fechando o Scanner
 		sc.close();
 	}
 	
