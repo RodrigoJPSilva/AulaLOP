@@ -5,23 +5,23 @@ import java.util.Scanner;
 public class IMC {
 
 	public static void main(String[] args) {
-		//Abrindo o Scanner
+		// Abrindo o Scanner
 		Scanner sc  = new Scanner(System.in);
-		//Variaveis
+		// Variaveis
 		double Peso,Altura, IMC;
 		
-		//entrada
+		// Entrada
 		System.out.println("Vamos ver o seu Indíce de Massa Muscular ");
 		System.out.println("Digite o seu peso: ");
 		Peso = sc.nextDouble();
 		System.out.println("Digite sua altura: ");
 		Altura = sc.nextDouble();
 		
-		//processamento
+		// Processamento
 		IMC = Peso / (Math.pow(Altura, 2));
 		System.out.printf("IMC = %.2f\n", IMC);
 		
-		//saida
+		// Saida
 		if (IMC < 18.5) {
 			System.out.println("Você está abaixo o do peso");
 		}
@@ -41,7 +41,7 @@ public class IMC {
 			System.out.println("Você está com obesidade grau 3");
 		}
 
-		//Fechando o Scanner
+		// Fechando o Scanner
 		sc.close();
 
 	}
