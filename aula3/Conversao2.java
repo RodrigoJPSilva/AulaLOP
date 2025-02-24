@@ -21,7 +21,7 @@ public class Conversao2{
 				//saida
 				System.out.printf("Em Fehrenheit são %.2f°F\n", Conversão);
 
-				
+				//Fechando o Scanner
 				sc.close();
 
 			}
