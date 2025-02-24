@@ -19,7 +19,7 @@ public class MaiorMenor2 {
 		System.out.print("Digite o segundo numero:");
 		b = sc.nextDouble();
 		
-		//Processamento e Saida
+		//Saida Condicional
 		if (a>b) {
 			System.out.printf("%.2f é maior que %.2f",a,b);
 		}
