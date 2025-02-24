@@ -26,6 +26,7 @@ public class MaiorMenor2 {
 		else {
 			System.out.printf("%.2f é maior que %.2f",a,b);
 		}
+		//Fechando o Scanner
 		sc.close();
 	}
 
