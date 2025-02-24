@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Média {
 		public static void main(String[] args) {
-			// TODO Auto-generated method stub
+			//Variaveis
 			Scanner sc  = new Scanner(System.in);
 			String Nome1, Nome2;
 			double Alt1, Alt2,  Media;
