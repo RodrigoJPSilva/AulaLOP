@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class Troco {
 
 	public static void main(String[] args) {
-		//Criando o Scanner
+		// Criando o Scanner
 		Scanner sc  = new Scanner(System.in);
-		//Variaveis
+		// Variaveis
 		Double Price, Money, Change;
 		int Unit
 
-		//Entrada
+		// Entrada
 		System.out.print("Preço unitário do produto: ");
 		Price = sc.nextDouble();
 		System.out.print("Quantidade comprada: ");
@@ -19,10 +19,10 @@ public class Troco {
 		System.out.print("Dinheiro recebido: ");
 		Money = sc.nextDouble();
 
-		//Processamento
+		// Processamento
 		Change = Money - Price * Unit;
 
-		//Saida
+		// Saida
 		System.out.print("TROCO = ");
 		System.out.println(String.format("%.2f", Change));
 	}
