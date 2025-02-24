@@ -5,11 +5,12 @@ import java.util.Scanner;
 public class ValoresElevados {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner sc = new Scanner(System.in);
-
+		//Criando o Scanner
+		Scanner sc  = new Scanner(System.in);
+		//Variaveis
 		Double Height, Width, Area, Price, Total;
 
+		
 		System.out.print("Digite a largura do cômodo: ");
 		Height = sc.nextDouble();
 
