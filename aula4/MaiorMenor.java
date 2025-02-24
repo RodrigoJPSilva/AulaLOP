@@ -27,24 +27,21 @@ public class MaiorMenor {
 		if (a<=b && a<=c) {
 			if (b<c) {
 				System.out.printf("Veja a ordem crescente dos numeros recebidos:%.2f, %.2f e %.2f",a,b,c);
-			}
-			else {
+			} else {
 				System.out.printf("Veja a ordem crescente dos numeros recebidos:%.2f, %.2f e %.2f",a,c,b);	
 			}
 		}
 		if (c<=a && c<=b) {
 			if (b<a) {
 				System.out.printf("Veja a ordem crescente dos numeros recebidos:%.2f, %.2f e %.2f",c,b,a);
-			}
-			else {
+			} else {
 				System.out.printf("Veja a ordem crescente dos numeros recebidos:%.2f, %.2f e %.2f",c,a,b);				
 			}
 		}
 		if (b<=a && b<=c) {
 			if (c<a) {
 				System.out.printf("Veja a ordem crescente dos numeros recebidos:%.2f, %.2f e %.2f",b,c,a);
-			}
-			else {
+			} else {
 				System.out.printf("Veja a ordem crescente dos numeros recebidos:%.2f, %.2f e %.2f",b,a,c);				
 			}
 		}
