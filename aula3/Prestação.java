@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Prestação {
 
 	public static void main(String[] args) {
-		//Abrindo o Scanner
+		// Abrindo o Scanner
 		Scanner sc  = new Scanner(System.in);
-		//Variaveis
+		// Variaveis
 		double Prestacao, Valor, Taxa, Tempo;
 
 		// entrada
@@ -26,7 +26,7 @@ public class Prestação {
 
 		// saida
 		System.out.printf("A sua prestacao sera de %.2f reais", Prestacao);
-		//Fechando o Scanner
+		// Fechando o Scanner
 		sc.close();
 	}
 
