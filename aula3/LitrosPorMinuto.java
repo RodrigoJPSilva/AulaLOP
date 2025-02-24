@@ -28,12 +28,10 @@ public class LitrosPorMinuto {
 	if(Tempo >= 60) {
 		if (HrsInt == 1){
 			System.out.printf("Tempo gasto: %d Hora e %d Minutos\n",HrsInt,MinInt);
-		}
-		else {
+		} else {
 			System.out.printf("Tempo gasto: %.0f Horas e %d Minutos\n",HrsInt,MinInt);
 		}
-	}
-	else {
+	} else {
 	System.out.println("Tempo gasto: " + Tempo + " Minutos");
 	}
 	// Saida
