@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class Média {
 		public static void main(String[] args) {
-			//Variaveis
+			//Criando o Scanner
 			Scanner sc  = new Scanner(System.in);
+			//Variaveis
 			String Nome1, Nome2;
 			double Alt1, Alt2,  Media;
 			
