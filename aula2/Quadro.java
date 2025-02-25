@@ -8,27 +8,27 @@ public class Quadro {
 		// Criando o Scanner
 		Scanner sc  = new Scanner(System.in);
 		// Variaveis
-		Double Height, Width, Area, Perimeter, Diagonal;
+		Double height, width, area, perimeter, diagonal;
 
 		// Entrada
 		System.out.print("Largura do comodo: ");
-		Height = sc.nextDouble();
+		height = sc.nextDouble();
 		System.out.print("Altura do Quadro: ");
-		Width = sc.nextDouble();
+		width = sc.nextDouble();
 		
 		// Processamento
-		Area = Height * Width;
+		area = height * width;
 		
 		// Saida
-		System.out.println("O valor em metros quadrados são: " + Area);
+		System.out.println("O valor em metros quadrados são: " + area);
 		System.out.print("ÁREA = ");
-		System.out.println(String.format("%.4f", Area));
-		Perimeter = 2 * (Height+Width);
+		System.out.println(String.format("%.4f", area));
+		Perimeter = 2 * (height+width);
 		System.out.print("PEÍMETRO = ");
-		System.out.println(String.format("%.4f", Perimeter));
-		Diagonal = Math.sqrt(Height * Height+Width * Width); 
+		System.out.println(String.format("%.4f", perimeter));
+		Diagonal = Math.sqrt(height * height+width * width); 
 		System.out.print("DIAGONAL = ");
-		System.out.println(String.format("%.4f", Diagonal));
+		System.out.println(String.format("%.4f", diagonal));
 
 		// Fechando o Scanner
 		sc.close();
