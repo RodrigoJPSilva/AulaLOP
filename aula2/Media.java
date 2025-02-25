@@ -7,30 +7,30 @@ public class Média {
 			// Criando o Scanner
 			Scanner sc  = new Scanner(System.in);
 			// Variaveis
-			String Nome1, Nome2;
-			double Alt1, Alt2,  Media;
+			String nome1, nome2;
+			double alt1, alt2,  media;
 			
 			// Dados primeira pessoa
 			System.out.println("Dados da primeira pessoa: ");
 			System.out.print("Nome: ");
-			Nome1 = sc.nextLine();
+			nome1 = sc.nextLine();
 			System.out.print("Altura: ");
-			Alt1 = sc.nextDouble();
+			alt1 = sc.nextDouble();
 			
 			sc.nextLine();
 		
 			// Dados segunda pessoa
 			System.out.println("Dados da segunda pessoa: ");
 			System.out.print("Nome: ");
-			Nome2 = sc.nextLine();
+			nome2 = sc.nextLine();
 			System.out.print("Altura: ");
-			Alt2 = sc.nextDouble();
+			alt2 = sc.nextDouble();
 
 			// Processamento
-			Media = (Alt1+Alt2) / 2;
+			media = (Alt1+Alt2) / 2;
 
 			// Saida
-			System.out.println("A altura média de "+ Nome1 + "e " + Nome2 + "são" + Media);
+			System.out.println("A altura média de "+ nome1 + "e " + nome2 + "são" + media);
 			
 			// Fechando o Scanner
 			sc.close();
