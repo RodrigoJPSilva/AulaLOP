@@ -7,36 +7,36 @@ public class LitrosPorMinuto {
 	// Abrindo o Scanner
 	Scanner sc  = new Scanner(System.in);
 	// Variaveis
-	double Velocidade, HorasDouble, Distancia,Litros_Usados;
-	int Tempo;
+	double velocidade, horasDouble, distancia,litrosUsados;
+	int tempo;
 	// Entrada
 	System.out.print("Seja bem vindo caro usuario");
 	System.out.println("Vamos calcular a quantidade de litros gastos na viagem de sua escolha");
 	System.out.println("Um breve aviso: este codigo aceita somente numeros, agora avisado vamos adiante");
 	System.out.print("Digite a velocidade media: ");
-	Velocidade = sc.nextDouble();
+	velocidade = sc.nextDouble();
 	System.out.print("Agora digite os minutos percorridos: ");
-	Tempo = sc.nextInt();
+	tempo = sc.nextInt();
 	// processamento	
-	HorasDouble = Tempo / 60.0;// convertendo Tempo para double
-	Distancia = HorasDouble * Velocidade;
-	Litros_Usados = Distancia / 12;
-	int HrsInt = Tempo / 60;
-	int MinInt = Tempo % 60;
+	horasDouble = tempo / 60.0;// convertendo Tempo para double
+	distancia = horasDouble * velocidade;
+	litrosUsados = distancia / 12;
+	int hrsInt = tempo / 60;
+	int minInt = tempo % 60;
 	// Saida Condicional
-	System.out.printf("Velocidade média: %.0fKM\n", Velocidade);
-	if(Tempo >= 60) {
-		if (HrsInt == 1){
-			System.out.printf("Tempo gasto: %d Hora e %d Minutos\n",HrsInt,MinInt);
+	System.out.printf("Velocidade média: %.0fKM\n", velocidade);
+	if(tempo >= 60) {
+		if (hrsInt == 1){
+			System.out.printf("Tempo gasto: %d Hora e %d Minutos\n",hrsInt,minInt);
 		} else {
-			System.out.printf("Tempo gasto: %.0f Horas e %d Minutos\n",HrsInt,MinInt);
+			System.out.printf("Tempo gasto: %.0f Horas e %d Minutos\n",hrsInt,minInt);
 		}
 	} else {
-	System.out.println("Tempo gasto: " + Tempo + " Minutos");
+	System.out.println("Tempo gasto: " + tempo + " Minutos");
 	}
 	// Saida
-	System.out.printf("Distância percorrida: %.0fKM\n", Distancia);
-	System.out.printf("Litros gastos: %.0f Litros\n", Litros_Usados);
+	System.out.printf("Distância percorrida: %.0fKM\n", distancia);
+	System.out.printf("Litros gastos: %.0f Litros\n", litrosUsados);
 	System.out.print("Agradecemos a sua preferencia, volte sempre :)");
 
 	// Fechando o Scanner
