@@ -8,18 +8,18 @@ public class Conversao2{
 				// Abrindo o Scanner
 				Scanner sc  = new Scanner(System.in);
 				// Variaveis
-				double Fahrenheit,Conversão;
+				double fahrenheit,conversão;
 				
 				// Entrada
 				System.out.println("Vamos converter Celsious para Fahrenheit");
 				System.out.println("Digite os graus Celsious: ");
-				Fahrenheit = sc.nextDouble();
+				fahrenheit = sc.nextDouble();
 				
 				// Processamento
-				Conversão = ((Fahrenheit-32)* 5 / 9);
+				conversão = ((fahrenheit-32)* 5 / 9);
 				
 				// Saida
-				System.out.printf("Em Fehrenheit são %.2f°F\n", Conversão);
+				System.out.printf("Em Fehrenheit são %.2f°F\n", conversão);
 
 				// Fechando o Scanner
 				sc.close();
