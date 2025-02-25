@@ -8,23 +8,23 @@ public class Troco {
 		// Criando o Scanner
 		Scanner sc  = new Scanner(System.in);
 		// Variaveis
-		Double Price, Money, Change;
-		int Unit
+		Double price, money, change;
+		int unit
 
 		// Entrada
 		System.out.print("Preço unitário do produto: ");
-		Price = sc.nextDouble();
+		price = sc.nextDouble();
 		System.out.print("Quantidade comprada: ");
-		Unit = sc.nextInt();
+		unit = sc.nextInt();
 		System.out.print("Dinheiro recebido: ");
-		Money = sc.nextDouble();
+		money = sc.nextDouble();
 
 		// Processamento
-		Change = Money - Price * Unit;
+		change = money - price * unit;
 
 		// Saida
 		System.out.print("TROCO = ");
-		System.out.println(String.format("%.2f", Change));
+		System.out.println(String.format("%.2f", change));
 
 		// Fechando o Scanner
 		sc.close();
