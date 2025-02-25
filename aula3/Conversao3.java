@@ -8,20 +8,20 @@ public class Conversao3{
 				// Abrindo o Scanner
 				Scanner sc  = new Scanner(System.in);
 				// Variaveis
-				double Volume, R, Altura;
+				double volume, r, altura;
 				
 				// Entrada
 				System.out.println("Vamos calcular o volume");
 				System.out.println("Digite o raio: ");
-				R = sc.nextDouble();
+				r = sc.nextDouble();
 				System.out.println("Digite a altura: ");
-				Altura = sc.nextDouble();
+				altura = sc.nextDouble();
 				
 				// Processamento
-				Volume = 3.14159 * (Math.pow(R,2)) * Altura;
+				volume = 3.14159 * (Math.pow(r,2)) * altura;
 				
 				// Saida
-				System.out.printf("Em Fehrenheit são %.2fdm³\n", Volume);
+				System.out.printf("Em Fehrenheit são %.2fdm³\n", volume);
 
 				// Fechando o Scanner
 				sc.close();
