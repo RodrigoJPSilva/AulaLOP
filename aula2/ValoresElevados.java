@@ -8,24 +8,24 @@ public class ValoresElevados {
 		// Criando o Scanner
 		Scanner sc  = new Scanner(System.in);
 		// Variaveis
-		Double Height, Width, Area, Price, Total;
+		Double height, width, area, price, total;
 
 		// Entrada
 		System.out.print("Digite a largura do cômodo: ");
-		Height = sc.nextDouble();
+		height = sc.nextDouble();
 		System.out.print("Digite o comprimento do comodo: ");
-		Width = sc.nextDouble();
+		width = sc.nextDouble();
 		System.out.print("Digite o valor do metro quadrado do piso: ");
-		Price = sc.nextDouble();
+		price = sc.nextDouble();
 		
 		// Processamento
-		Area = Height * Width;
-		Total = Price * Area;
+		area = height * width;
+		total = price * area;
 
 		// Saida
-		System.out.println("O valor em metros quadrados são: " + Area);
+		System.out.println("O valor em metros quadrados são: " + area);
 		System.out.print("O valor do seu produto é: ");
-		System.out.print(String.format("%.2f", Total));
+		System.out.print(String.format("%.2f", total));
 
 		// Fechando o Scanner
 		sc.close();
