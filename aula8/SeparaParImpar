@@ -1,0 +1,26 @@
+package aula8
+
+public class SepararParesImparesSimples {
+    public static void main(String[] args) {
+        int[] vetor = {12, 3, 7, 8, 9, 10, 14, 5, 18, 21};
+
+        System.out.print("Vetor original: ");
+        for (int i = 0; i < vetor.length; i++) {
+            System.out.print(vetor[i] + " ");
+        }
+
+        System.out.print("\nNúmeros pares: ");
+        for (int i = 0; i < vetor.length; i++) {
+            if (vetor[i] % 2 == 0) {
+                System.out.print(vetor[i] + " ");
+            }
+        }
+
+        System.out.print("\nNúmeros ímpares: ");
+        for (int i = 0; i < vetor.length; i++) {
+            if (vetor[i] % 2 != 0) {
+                System.out.print(vetor[i] + " ");
+            }
+        }
+    }
+}
