@@ -2,7 +2,7 @@ package aula6;
 
 import java.util.Scanner;
 
-public class Teste5 {
+public class EntreNumeros {
 	public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double num1;
