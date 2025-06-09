@@ -1,0 +1,28 @@
+package aula8
+
+import java.util.Scanner;
+
+public class MultiplicaVetor {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int[] vetor = {2, 4, 6, 8, 10}; // Você pode mudar os valores aqui
+
+        System.out.print("Vetor original: ");
+        for (int num : vetor) {
+            System.out.print(num + " ");
+        }
+
+        // Solicita um número ao usuário
+        System.out.print("\nDigite um número para multiplicar: ");
+        int multiplicador = scanner.nextInt();
+
+        // Multiplica os elementos do vetor
+        System.out.print("Novo vetor: ");
+        for (int i = 0; i < vetor.length; i++) {
+            vetor[i] *= multiplicador;
+            System.out.print(vetor[i] + " ");
+        }
+
+        scanner.close();
+    }
+}
