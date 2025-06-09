@@ -1,0 +1,24 @@
+import aula8
+
+public class MediaNotas {
+    public static void main(String[] args) {
+        double[] notas = {8.0, 6.5, 7.2, 5.0, 9.0, 7.5};
+        double soma = 0;
+
+        System.out.print("Notas: ");
+        for (int i = 0; i < notas.length; i++) {
+            System.out.print(notas[i] + " ");
+            soma += notas[i];
+        }
+
+        double media = soma / notas.length;
+
+        System.out.printf("\nMédia: %.1f\n", media);
+
+        if (media >= 7.0) {
+            System.out.println("Resultado: Aprovado");
+        } else {
+            System.out.println("Resultado: Reprovado");
+        }
+    }
+}
