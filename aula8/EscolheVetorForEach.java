@@ -2,7 +2,7 @@ package aula8;
 
 import java.util.Scanner;
 
-public class Aula8alternativo {
+public class EscolheVetorForEach {
 	public static void main(String[] args) {
 
 //		int vetor[] = {1, 2};
