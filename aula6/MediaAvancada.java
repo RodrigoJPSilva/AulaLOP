@@ -2,7 +2,7 @@ package aula6;
 
 import java.util.Scanner;
 
-public class Teste6 {
+public class MediaAvancada {
 	public static void main(String[] args) {
 //		Declarando variaveis e o objeto
 		Scanner sc = new Scanner(System.in);
