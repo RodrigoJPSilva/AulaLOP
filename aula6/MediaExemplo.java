@@ -2,7 +2,7 @@ package aula6;
 
 import java.util.Scanner;
 
-public class Teste4 {
+public class MediaExemplo {
 	public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double num1,num2,num3,media;
